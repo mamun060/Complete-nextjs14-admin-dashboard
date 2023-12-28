@@ -1,0 +1,46 @@
+.proudctPageHeading {
+    padding: 5px 0px;
+}
+
+.proudctPageHeading  h4{
+    color: #000;
+    font-size: 28px;
+    font-weight: 500;
+    line-height: 42px;
+}
+
+/* Add Product page style start */
+.addProductBtnWrap {
+    display: flex;
+    justify-content:flex-end;
+    align-items: center;
+    padding-top: 5px;
+}
+
+.paginationAlignment {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.productActionButton {
+    display: flex;
+    gap: 5px;
+    justify-content: flex-start;
+}
+
+.productActionButton span {
+    font-size: 14px;
+    color: #fff;
+    width: 30px;
+    height: 30px;
+    background-color: #e67e22;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+
+.productActionButton span:hover {
+    cursor: pointer;
+}
